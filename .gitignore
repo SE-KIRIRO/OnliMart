@@ -2,3 +2,4 @@ venv/
 .env
 onlimart/media
 __pycache__
+onlimart/db.sqlite3
