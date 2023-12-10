@@ -3,3 +3,4 @@ venv/
 onlimart/media
 __pycache__
 onlimart/db.sqlite3
+*.sqlite3
