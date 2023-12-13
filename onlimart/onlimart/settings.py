@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
     'payment.apps.PaymentConfig',
+    
     'coupons.apps.CouponsConfig',
 ]
 
@@ -152,3 +153,8 @@ STRIPE_API_VERSION = os.environ.get('STRIPE_API_VERSION')
 STRIPE_WEBHOOK_SECRET = os.environ.get('STRIPE_WEBHOOK_SECRET')
 
 STATIC_ROOT = BASE_DIR /'static'
+
+# redis settings
+REDIS_HOST = os.environ.get('REDIS_HOST')
+REDIS_PORT = os.environ.get('REDIS_PORT')
+REDIS_DB = 1
